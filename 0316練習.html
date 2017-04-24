@@ -3,7 +3,7 @@
 <html lang="en-us">
 <head>
 <style>
-body {background-color: powderblue;}
+body {background-color: #4f6f6f}
 .city {
    float: left;
    margin: 10px;
@@ -12,12 +12,23 @@ body {background-color: powderblue;}
    height: 500px;
    border: 1px solid black;
 }   
+@media screen and (min-width: 480px) {
+    body {
+        background-color: pink;
+    }
+    @media screen and (min-width: 760px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
 </style>
 </head>
 <body>
 
 <h1>Responsive Web Design practice</h1>
-<h2 style="color:blue;">請各位留下你們的資料</h2>
+<h2 style="color:white;">請各位留下你們的資料</h2>
+<h2 style="color:white;">縮放會變三種顏色</h2>
 
 <div class="city">
   <h2>杜哲宇</h2>
